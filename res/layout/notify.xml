@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout android:id="@+id/LinearLayout01" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical">
+
+    
+    <TextView android:id="@+id/TextView01" 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:clickable="false" 
+        android:inputType="none" 
+        android:keepScreenOn="true" 
+        android:lines="2" 
+        android:text="Aperture Fall Detection Alert" 
+        android:textColor="#FF0000" 
+        android:textStyle="bold" 
+        android:typeface="sans" 
+        android:visibility="visible" 
+        android:background="#CDCDCD" 
+        android:scrollbars="none" 
+        android:gravity="center_vertical|center_horizontal" 
+        android:textSize="11pt">
+    </TextView>
+    <TextView 
+        android:id="@+id/TextView02" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:text="Call for help?" 
+        android:typeface="sans" 
+        android:layout_gravity="center_vertical|center_horizontal" 
+        android:textSize="15pt" 
+        android:layout_margin="20px">
+    </TextView>
+    
+    <Button android:layout_height="wrap_content" 
+        android:text="Call+Text Caregiver" 
+        android:clickable="true" 
+        android:hapticFeedbackEnabled="true" 
+        android:layout_width="fill_parent" 
+        android:background="#00FF00" 
+        android:height="75px" 
+        android:gravity="center_vertical|center_horizontal" 
+        android:textSize="35px" 
+        android:layout_marginBottom="25px" android:id="@+id/notifyCaregiver">
+    </Button>
+    
+    <Button android:layout_height="wrap_content" 
+        android:text="Call Emergency" 
+        android:clickable="true" 
+        android:hapticFeedbackEnabled="true" 
+        android:layout_width="fill_parent" 
+        android:background="#FFFF00" 
+        android:height="75px" 
+        android:gravity="center_vertical|center_horizontal" 
+        android:textSize="35px" 
+        android:layout_marginBottom="25px" android:id="@+id/notifyEmergency">
+    </Button>
+    
+    <Button android:layout_height="wrap_content" 
+        android:text="No" 
+        android:clickable="true" 
+        android:hapticFeedbackEnabled="true" 
+        android:layout_width="fill_parent" 
+        android:background="#FF0000" 
+        android:height="75px" 
+        android:gravity="center_vertical|center_horizontal" 
+        android:textSize="35px" 
+        android:layout_marginBottom="25px" android:id="@+id/notifyNobody">
+    </Button>
+
+
+</LinearLayout>
