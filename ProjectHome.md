@@ -1,0 +1,1 @@
+This is just a basic fall detection app for Android that was made for a class.
